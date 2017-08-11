@@ -264,7 +264,7 @@ $$\frac{dX_1}{dt} = -bX_1X_2$$
 
 $$\frac{dX_2}{dt} = bX_1X_2-rX_2$$
 
-$$\frac{dX_2}{dt} =rX_2$$
+$$\frac{dX_3}{dt} =rX_2$$
 
 
 <br />
@@ -279,7 +279,7 @@ $$\frac{dX_1}{dt} = -bX_1X_2+aX_3$$
 
 $$\frac{dX_2}{dt} = bX_1X_2-rX_2$$
 
-$$\frac{dX_2}{dt} =rX_2-aX_3$$
+$$\frac{dX_3}{dt} =rX_2-aX_3$$
 
 <br />
 
