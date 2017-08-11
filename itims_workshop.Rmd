@@ -553,6 +553,10 @@ legend("top",c("lacI", "tetR","cI"), col=1:3,bty="n", horiz=TRUE, lwd=2, lty=1:4
 * [BRD database](https://brd.bsvgateway.org/): a database collecting epidemiology models and data from published papers
 
 * [Gapminder](https://www.gapminder.org/tools/#_locale_id=en;&chart-type=bubbles): A great interactive tool to explore patterns in economic and demographic data around the world.
+
+* [Sarah Cobey's Github](https://github.com/sarahCobey?tab=repositories) - Includes code from her keynote lecture! 
+
+* [Sarah Cobey and Trevor Bedford's Course at SISMID](https://github.com/trvrb/sismid)
 <br>
 <br>
 
