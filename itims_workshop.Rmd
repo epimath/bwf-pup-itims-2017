@@ -441,8 +441,8 @@ Take a look at the following models with a little bit more complexity. Play with
 
 * **Exploring Model Structures** - Population versus agent based models (ABM) and deterministic versus stochastic models
     + Author: [Maria Riolo](https://lsa.umich.edu/cscs/people/post-docs-lecturers-visiting-scholars/maria-riolo.html)
-    + Population model: [SIR-deterministic.nlogo](AdditionalExercises/SIR-deterministic.nlogo), [SIR-stochastic.nlogo](AdditionalExercises/SIR-stochastic.nlogo)
-    + ABMs: [SIR-agent-based.nlogo](AdditionalExercises/SIR-agent-based.nlogo), [SIR-agent-based-2.nlogo](AdditionalExercises/SIR-agent-based.nlogo)
+    + Population model: [SIR-deterministic.nlogo](AdditionalExercises/SIR-1-deterministic.nlogo), [SIR-stochastic.nlogo](AdditionalExercises/SIR-2-stochastic.nlogo)
+    + ABMs: [SIR-agent-based.nlogo](AdditionalExercises/SIR-3-agent-based.nlogo), [SIR-agent-based-2.nlogo](AdditionalExercises/SIR-4-agent-based-2.nlogo)
     + Play with the two population models, and take a look at their **CODE**. Compare the transmission process between the two models. 
     + 1. Pick a parameter set---have everyone at your table pick different ones, so that you can compare and contrast between you. Now, try your parameter values with each of the different model files above. What differences do you observe between models? What can one model capture that others can't?
     + 2. Now for the spatial ABM, adjust the rotation angle (rt). How does the model behavior change as you increase the rotation?
