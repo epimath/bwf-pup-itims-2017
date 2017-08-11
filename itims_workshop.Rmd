@@ -41,14 +41,14 @@ Please make sure you downloaded the following software and R pacakges.
 
 ### Tips for using the exercise notebook.
 
-The files we will need for this exercise are listed below:
+The files we will need for this exercise are listed below. All files can be downloaded [here](https://github.com/epimath/bwf-pup-itims-2017) (some are in the folder "AdditionalExercises").
 
 File name | Content
 ------------- | ----------------------
 itims_workshop.Rmd | The exercise note in [R markdown](http://rmarkdown.rstudio.com/lesson-1.html)
 itims_workshop.html | The html version of the exercise note (can be viewed in web browsers)
 model_shiny.Rmd | shiny interface for the models we use in the exercise
-empty_example_model.nlogo | the empty example model used in **Probelm 1C**
+empty_example_model.nlogo | the empty example model used in **Problem 1C**
 SIR-agent-based.nlogo | An agent based model of disease transmission in NetLogo
 SIR-deterministic.nlogo | A deterministic population model of disease transmission in NetLogo
 SIR-stochastic.nlogo | A stochastic population model of disease transmission in NetLogo
@@ -67,6 +67,11 @@ This notebook is written in R Markdown (the .Rmd file). This generates the HTML 
 Note1: in order to create a script to save the R code you work on in RStudio, you can click the **New File** icon  <img src="figure/icon1.png" alt="Smiley face" height="40" width="40">  and then select R Script. To run the whole script, just click the **Run** button.
 
 Note2: the **itims_workshop.html** can be generated from **itims_workshop.Rmd** by clicking <img src="figure/icon4.png" alt="Smiley face" height="70" width="80">
+<br><br>
+
+### Recording your answers and observations 
+
+If you want to record your answers to the problems as you go, the easiest way is probably to use [this form](https://goo.gl/forms/dpZlS4hIeS0f8lSy2) (plus, that way we can see how people are progressing and what you all discover!). But if you'd rather not, feel free to write your answers on paper or in the text boxes below. Just be careful---answers in the text boxes below will not be saved if you reload the page!
 
 <br>
 <hr style="border: 0; height: 5px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
@@ -74,7 +79,7 @@ Note2: the **itims_workshop.html** can be generated from **itims_workshop.Rmd** 
 
 ### Problem 1A: Simple rules can lead to complex behavior.
 
-During the 1960s the economist Thomas Schelling researched segregation and racial preferences, and showed individuals can have only mild preferences for the same type and yet these subtle preferences can lead to societal segregation. Here, we'll explore this with a hypothetical setting, looking at interactions between red and green turtles.
+During the 1960s the economist Thomas Schelling researched neighborhood racial segregation and residential preferences. Using a simple model, he showed that individuals can have only mild preferences for the same type and yet these subtle preferences can lead to societal segregation. Here, we'll explore this with a hypothetical setting, looking at interactions between red and green turtles.
 
 In this model, the red turtles and green turtles get along with one another. But each turtle wants to make sure that it lives near some of “its own.” That is, each red turtle wants to live next to at least some red turtles, and each green turtle wants to live next to at least some green turtles.
 
@@ -96,7 +101,10 @@ So, each turtle is happy if at least a certain percentage of their neighbors are
 
 * Lastly adjust the population density as well as `%-similar-wanted`. How does population density change the results you found above?
 
-
+<br />
+<textarea cols="90" rows="3">
+Please write your observation here...
+</textarea><br />
 
 <br>
 <hr>
@@ -108,9 +116,14 @@ Next, we'll look at how disease spreads on contact networks between individuals.
 
 *	What do you notice about how the network structure affects the dynamics of the epidemic? Do some levels of connectivity or numbers of people seem to be more likely to allow an outbreak than others?
 
-*	Consider the parameters for `virus-spread-chance`, `recovery-chance`, and `gain-resistance-chance`. How would you expect these parameters to change the outcome of the disease outbreak? Are there any thresholds you might expect to see, where the outbreak dynamics change once you are above or below a threshold?
+*	Consider the parameters for `virus-spread-chance`, `recovery-chance`, and `gain-resistance-chance`. How would you expect these parameters to change the outcome of the disease outbreak? 
 
-* Adjust the three parameters in the previous question to a range of values—how does the model behavior change? 
+* Adjust the three parameters in the previous question to a range of values—how does the model behavior change? Does it match what you expected?
+
+<br />
+<textarea cols="90" rows="3">
+Please write your observation here...
+</textarea><br />
 
 <br>
 <hr>
@@ -177,6 +190,11 @@ We can use the same model to represent three different scenarios—choose one to
 3. **Prion Conformational Changes.** [Prions](https://en.wikipedia.org/wiki/Prion) are malformed proteins which can cause a variety of brain diseases. In this scenario, $X_1$ represents the number of normal prion proteins in the tissue, and $X_2$ represents the number of prions (malformed proteins) in the tissue. The term $bX_1X_2$ represents the process by which normal proteins become malformed after interacting with a prion (malformed protein). We suppose that for this prion disease there is also a treatment which returns the proteins back to their normal state at rate $aX_2$. 
 
 Implement and run the model in R, using either the R code below or the Shiny app (open [model_shiny.Rmd](model_shiny.Rmd), and click <img src="figure/icon5.png" alt="Smiley face" height="50" width="100">), which uses an interface similar to NetLogo (i.e. you can use slider bars to change the value of parameters). What behavior do you observe? Is this what you would expect to happen for the scenario you chose?
+
+<br />
+<textarea cols="90" rows="3">
+Please write your observation here...
+</textarea><br />
 
 **R code :**
 
@@ -413,11 +431,11 @@ Please discuss with your group and record your response here...
 
 ### More model examples (optional exercises)
 
-Take a look at the following models with a little bit more complexity. Play with the models yourself, but feel free to ask questions and disscuss with your group!
+Take a look at the following models with a little bit more complexity. Play with the models yourself, but feel free to ask questions and disscuss with your group! Most files for these exercises will be in the folder **AdditionalExercises**.
 
 * **Exploring rotation size parameter from problem 1C**
     + Open [turtle_color.nlogo](turtle_color.nlogo) in NetLogo
-    + Similar to the model from problem 1C, but here we start with all turtles in the middle, and add a slider (turn-size) to change the size of rotation for the turtles at each time point (see **Code** for more details). 
+    + Continuing from problem 1C, adapt the code to start with all turtles in the middle, and add a slider (turn-size) to change the size of rotation for the turtles at each time point (see **Code** for more details). 
     + Try different values of rotation size, how does the pattern change when you run the model?
 <br /><br />
 
@@ -435,15 +453,15 @@ Take a look at the following models with a little bit more complexity. Play with
 <br /><br />
 
 * **Parameter Estimation Tutorial**
-    + Download the files of **param-estimation-SIR** from [epimath](https://github.com/epimath/param-estimation-SIR) repositories by clicking  <img src="figure/icon3.png" alt="Smiley face" height="70" width="90">
-    + This example shows how to estimate parameters of interest 
+    + Download the files of **param-estimation-SIR** from [epimath](https://github.com/epimath/param-estimation-SIR) repository by clicking  <img src="figure/icon3.png" alt="Smiley face" height="70" width="90">
+    + This exercise walks through how to estimate model parameters using maximum likelihood, and evaluate uncertainty
     + It also includes code in MATLAB and Python
 <br /><br />
 
 * **Deterministic Repressilator Model** from A synthetic oscillatory network of transcriptional regulators, by Elowitz and Leibler.
     + More details can be found [here](Elowitz_Leibler.pdf)
-    + Given the description, how would you make it into a stochastic model?
     + Try adjusting the parameters---how does the model behavior change?
+    + Given the description, how would you make it into a stochastic model? What might you expect to change?
     + Rcode (this model is also provided in shiny)
     
 ```{r det repressilator sys}
@@ -528,6 +546,7 @@ legend("top",c("lacI", "tetR","cI"), col=1:3,bty="n", horiz=TRUE, lwd=2, lty=1:4
 
 * [BRD database](https://brd.bsvgateway.org/): a database collecting epidemiology models and data from published papers
 
+* [Gapminder](https://www.gapminder.org/tools/#_locale_id=en;&chart-type=bubbles): A great interactive tool to explore patterns in economic and demographic data around the world.
 <br>
 <br>
 
