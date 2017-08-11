@@ -434,15 +434,15 @@ Please discuss with your group and record your response here...
 Take a look at the following models with a little bit more complexity. Play with the models yourself, but feel free to ask questions and disscuss with your group! Most files for these exercises will be in the folder **AdditionalExercises**.
 
 * **Exploring rotation size parameter from problem 1C**
-    + Open [turtle_color.nlogo](turtle_color.nlogo) in NetLogo
-    + Continuing from problem 1C, adapt the code to start with all turtles in the middle, and add a slider (turn-size) to change the size of rotation for the turtles at each time point (see **Code** for more details). 
-    + Try different values of rotation size, how does the pattern change when you run the model?
+    + Continuing from problem 1C, adapt the code to start with all turtles in the middle, and add a slider (turn-size) to change the size of rotation for the turtles at each time point (see **Code** for more details). (The finished NetLogo code for this is available in [turtle_color.nlogo](AdditionalExercises/turtle_color.nlogo))
+    + Try different values of rotation size where the turtles are initially placed randomly. How does the pattern change when you run the model?
+    + Now try different values of rotation size where the turtles are initially placed in the middle. How does the pattern change when you run the model?
 <br /><br />
 
 * **Exploring how to structure models** - Population versus agent based models (ABM) and deterministic versus stochastic models
     + Author: [Maria Riolo](https://lsa.umich.edu/cscs/people/post-docs-lecturers-visiting-scholars/maria-riolo.html)
-    + Population model: [SIR-deterministic.nlogo](SIR-deterministic.nlogo), [SIR-stochastic.nlogo](SIR-stochastic.nlogo)
-    + ABM: [SIR-agent-based.nlogo](SIR-agent-based.nlogo)
+    + Population model: [SIR-deterministic.nlogo](AdditionalExercises/SIR-deterministic.nlogo), [SIR-stochastic.nlogo](AdditionalExercises/SIR-stochastic.nlogo)
+    + ABM: [SIR-agent-based.nlogo](AdditionalExercises/SIR-agent-based.nlogo)
     + Play with the two population models, and take a look at their **CODE**. Compare the transmission process between the two models.
     + What is the transmission process of SIR-agent-based model, and how does it differ from SIR-stochastic model?
 <br /><br />
@@ -459,7 +459,7 @@ Take a look at the following models with a little bit more complexity. Play with
 <br /><br />
 
 * **Deterministic Repressilator Model** from A synthetic oscillatory network of transcriptional regulators, by Elowitz and Leibler.
-    + More details can be found [here](Elowitz_Leibler.pdf)
+    + More details can be found [here](AdditionalExercises/Elowitz_Leibler.pdf)
     + Try adjusting the parameters---how does the model behavior change?
     + Given the description, how would you make it into a stochastic model? What might you expect to change?
     + Rcode (this model is also provided in shiny)
