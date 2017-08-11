@@ -16,7 +16,7 @@ library(deSolve)
 ```
 
 ### Software and R packages installation and working directory setup.
-Please make sure you downloaded the following software and R pacakges.
+Please make sure you downloaded the following software and R packages.
 
 * Software:
     
