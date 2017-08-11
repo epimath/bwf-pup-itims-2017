@@ -30,7 +30,7 @@ Please make sure you downloaded the following software and R packages.
     
     + `knitr`, `shiny`, `Matrix`, `deSolve`, `epiModel`, `ggplot2`
     
-    + To install these packages, just type the following command into the RStudio or R console to install all of the packages: `install.packages (c("shiny","knitr","Matrix","deSolve","epiModel","ggplot2"))`
+    + To install these packages, just type the following command into the RStudio or R console to install all of the packages: `install.packages (c("shiny","knitr","Matrix","deSolve","EpiModel","ggplot2"))`
     
     + You can also click **Tools > Install Packages** in RStudio, and then key in the package names. The packages will be automatically downloaded.
     
